@@ -42,3 +42,4 @@ If you have the debugger disabled or trust the users on your network with:
 `flask run --host=0.0.0.0`
 
 ### Make a Request to Your Friend's Server
+To find your IP address, type `what is my IP` into Google Search, and the first result will be the number. 
