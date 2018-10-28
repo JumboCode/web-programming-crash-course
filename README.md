@@ -36,6 +36,9 @@ A Version of this source code lives on a Heroku instance at [https://jcwebworksh
 
 ### Turn Your Server Public!
 
+If you run the server you will notice that the server is only accessible from your own computer, not from any other in the network. This is the default because in debugging mode a user of the application can execute arbitrary Python code on your computer.
 
+If you have the debugger disabled or trust the users on your network with:
+`flask run --host=0.0.0.0`
 
 ### Make a Request to Your Friend's Server
