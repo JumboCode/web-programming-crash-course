@@ -41,5 +41,11 @@ If you run the server you will notice that the server is only accessible from yo
 If you have the debugger disabled or trust the users on your network with:
 `flask run --host=0.0.0.0`
 
+### Find Your IP Address
+Find instructions on how to find your private IP address [here](https://lifehacker.com/5833108/how-to-find-your-local-and-external-ip-address).
+
+
 ### Make a Request to Your Friend's Server
-To find your IP address, type `what is my IP` into Google Search, and the first result will be the number. 
+*Warning: be sure you and your partner are both on Tufts_Secure!*
+Once you have your IP address, give it to the person sitting next to you - while your server is running, as them to 'hit' your server by sending a curl request `curl [your IP address]`. They should get the same 'Hello, world!' message you saw from Heroku!
+Alternatively, if they type your IP address into their browser, they should see the same message.
