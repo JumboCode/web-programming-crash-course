@@ -11,7 +11,7 @@ A Version of this source code lives on a Heroku instance at [https://jcwebworksh
     * If on python2, install the pip package virtualenv globaly with `pip install virtualenv`
         * Once virtualenv is installed, create a virtual environment with `virtualenv venv` 
 4. Activate the virtual environment you just created with `source venv/bin/activate`. You can see if you were successful by whether a (venv) bubble pops up to the left in the terminal.  
-5. Now that we have activated virtual environment, any dependencies we install we be isolated to our `venv` environment. Install the dependencies in the activated environment with `pip install requirements.txt`
+5. Now that we have activated virtual environment, any dependencies we install we be isolated to our `venv` environment. Install the dependencies in the activated environment with `pip install --upgrade -r requirements.txt`
     * If you want to exit the virtual environment at any point, simply type `deactivate`. 
 
 ### How to Run the Web Server Locally: 
