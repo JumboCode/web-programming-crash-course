@@ -2,6 +2,11 @@
 
 A Version of this source code lives on a Heroku instance at [https://jcwebworkshop.herokuapp.com/](https://jcwebworkshop.herokuapp.com/). 
 
+If you go to that site, you'll see something like `posts: ...`
+If you hit the server with a `POST` request: 
+`curl jcwebworkshop.herokuapp.com/ -d '{"message":"YOUR MESSAGE HERE"}' -H 'Content-Type: application/json'`
+and go back to the site, you'll see your message there!
+
 ### Get A Working Development Environment 
 
 1. Clone this repo with `git clone https://github.com/JumboCode/web-programming-crash-course.git`
