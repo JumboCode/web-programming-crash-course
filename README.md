@@ -47,5 +47,5 @@ Find instructions on how to find your private IP address [here](https://lifehack
 
 ### Make a Request to Your Friend's Server
 *Warning: be sure you and your partner are both on Tufts_Secure!*
-Once you have your IP address, give it to the person sitting next to you - while your server is running, as them to 'hit' your server by sending a curl request `curl [your IP address]`. They should get the same 'Hello, world!' message you saw from Heroku!
+Once you have your IP address, give it to the person sitting next to you - while your server is running, as them to 'hit' your server by sending a curl request `curl [your IP address]:5000`. They should get the same 'Hello, world!' message you saw from Heroku!
 Alternatively, if they type your IP address into their browser, they should see the same message.
