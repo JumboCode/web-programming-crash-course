@@ -11,7 +11,7 @@ A Version of this source code lives on a Heroku instance at [https://jcwebworksh
     * If on python2, install the pip package virtualenv globaly with `pip install virtualenv`
         * Once virtualenv is installed, create a virtual environment with `virtualenv venv` 
 4. Activate the virtual environment you just created with `source venv/bin/activate`. You can see if you were successful by whether a (venv) bubble pops up to the left in the terminal.  
-5. Now that we have activated virtual environment, any dependencies we install we be isolated to our `venv` environment. Install the dependencies in the activated environment with `pip install requirements.txt`
+5. Now that we have activated virtual environment, any dependencies we install we be isolated to our `venv` environment. Install the dependencies in the activated environment with `pip install --upgrade -r requirements.txt`
     * If you want to exit the virtual environment at any point, simply type `deactivate`. 
 
 ### How to Run the Web Server Locally: 
@@ -47,5 +47,5 @@ Find instructions on how to find your private IP address [here](https://lifehack
 
 ### Make a Request to Your Friend's Server
 *Warning: be sure you and your partner are both on Tufts_Secure!*
-Once you have your IP address, give it to the person sitting next to you - while your server is running, as them to 'hit' your server by sending a curl request `curl [your IP address]`. They should get the same 'Hello, world!' message you saw from Heroku!
+Once you have your IP address, give it to the person sitting next to you - while your server is running, as them to 'hit' your server by sending a curl request `curl [your IP address]:5000`. They should get the same 'Hello, world!' message you saw from Heroku!
 Alternatively, if they type your IP address into their browser, they should see the same message.
